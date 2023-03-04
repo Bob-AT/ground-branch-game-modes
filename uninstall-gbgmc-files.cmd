@@ -91,6 +91,7 @@ del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG7.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG8.kit
 del GroundBranch\Content\GroundBranch\DefaultLoadouts\BreakOut.kit
 del GroundBranch\Content\GroundBranch\DefaultLoadouts\NoTeamCamouflage.kit
+del GroundBranch\Content\GroundBranch\GameMode\AssetExtraction.lua
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtractionSemiPermissive.lua
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtractionSemiPermissiveValidate.lua
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtractionValidate.lua
@@ -98,7 +99,10 @@ del GroundBranch\Content\GroundBranch\GameMode\BreakOut.lua
 del GroundBranch\Content\GroundBranch\GameMode\BreakThrough.lua
 del GroundBranch\Content\GroundBranch\GameMode\KillConfirmed.lua
 del GroundBranch\Content\GroundBranch\GameMode\KillConfirmedSemiPermissive.lua
+del GroundBranch\Content\GroundBranch\GameMode\SecurityDetail.lua
 del GroundBranch\Content\GroundBranch\GameMode\SecurityDetailSemiPermissive.lua
+del GroundBranch\Content\GroundBranch\GameMode\SecurityDetailSemiPermissiveValidate.lua
+del GroundBranch\Content\GroundBranch\GameMode\SecurityDetailValidate.lua
 del GroundBranch\Content\GroundBranch\Lua\AssetExtraction.lua
 del GroundBranch\Content\GroundBranch\Lua\AssetExtractionSemiPermissive.lua
 del GroundBranch\Content\GroundBranch\Lua\BreakOut.lua
@@ -136,9 +140,11 @@ del GroundBranch\Content\GroundBranch\Mission\Compound\KillConfirmed_AceOfSpades
 del GroundBranch\Content\GroundBranch\Mission\Creek\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\RunDown\BreakOut.mis
 del GroundBranch\Content\GroundBranch\Mission\RunDown\KillConfirmed.mis
+del GroundBranch\Content\GroundBranch\Mission\SmallTown\AssetExtraction.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\AssetExtractionSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\KillConfirmedSemiPermissive.mis
+del GroundBranch\Content\GroundBranch\Mission\SmallTown\SecurityDetail.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\SecurityDetailSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\Tanker\BreakOut.mis
 del GroundBranch\Content\GroundBranch\Mission\Tanker\KillConfirmed.mis
