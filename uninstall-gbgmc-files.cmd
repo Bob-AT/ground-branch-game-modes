@@ -131,6 +131,7 @@ del GroundBranch\Content\GroundBranch\Lua\Spawns\Groups.lua
 del GroundBranch\Content\GroundBranch\Lua\Spawns\Priority.lua
 del GroundBranch\Content\GroundBranch\Lua\Spawns\Random.lua
 del GroundBranch\Content\GroundBranch\Mission\747\KillConfirmed.mis
+del GroundBranch\Content\GroundBranch\Mission\747\KillConfirmedSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\Arena\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\City\BreakOut.mis
 del GroundBranch\Content\GroundBranch\Mission\City\BreakThrough.mis
