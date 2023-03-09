@@ -3,7 +3,7 @@
 ## Description
 
 This repo contains game modes and missions for Ground Branch, as well as other
-files neccessary for them to work.
+files necessary for them to work.
 
 Please keep in mind the game is in early access, and this repo is a work in 
 progress, and therefore everything is subject to change.
@@ -20,30 +20,16 @@ progress, and therefore everything is subject to change.
 
 ## Installation
 
-To install any game mode follow these instructions:
-
-1. Go to [releases page](https://github.com/JakBaranowski/ground-branch-game-modes/releases).
-2. Download the game modes that you want to play.
-3. Unpack the contents of the downloaded zip file to Ground Branch root directory
-(by default: `C:\Program Files (x86)\Steam\steamapps\common\Ground Branch`)
-4. If this is not the first game mode you are installing you might need to overwrite
-some existing files. Don't worry no original game files will be overwritten.
-5. You're ready to play the new game modes. GLHF! :-)
-
-For more detailed instructions visit the 
-[Installation and updating wiki page](https://github.com/JakBaranowski/ground-branch-game-modes/wiki/game-mode-installation-and-updating)
+See <https://gbgmc.github.io/#installation>.
 
 ## Updating
 
 Follow the same steps as in the installation guide and overwrite all existing files.
 
-For more detailed instructions visit the 
-[Installation and updating wiki page](https://github.com/JakBaranowski/ground-branch-game-modes/wiki/game-mode-installation-and-updating)
 
 ## How to play
 
-You can find a more detailed info on how to play these game modes on the 
-[Game modes wiki page](https://github.com/JakBaranowski/ground-branch-game-modes/wiki/game-modes-home).
+See <https://gbgmc.github.io/>.
 
 ## Contributing
 
@@ -72,7 +58,7 @@ Branch root directory.
 
 This project uses **gb-tools**, and game modes manifests (the *\*.gbm* files), for
 packaging game modes into zip archives. More details about the **gb-tools** and
-manifests can be found on the [**gb-tools** github page](https://github.com/JakBaranowski/gb-tools).
+manifests can be found on the [**gb-tools** github page](https://github.com/gbgmc/gb-tools).
 
 ## Unofficial Ground Branch modding guide
 
@@ -87,7 +73,7 @@ useful.
 * **tjl** for creating this awesome [Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2461956424).
 * **AV** for creating this [Video Tutorial](https://www.youtube.com/playlist?list=PLle5osICJhZJwHxGOb1iBXoyu_uk9yXMY).
 * **r1ft4469** for creating this [GitHub repo](https://github.com/r1ft4469/GB-Server-Mods).
-* [**Bob-AT**](https://github.com/JakBaranowski/ground-branch-game-modes/commits?author=Bob-AT) for contribiutions to this project.
+* [**Bob-AT**](https://github.com/JakBaranowski/ground-branch-game-modes/commits?author=Bob-AT) for contributions to this project.
 
 ## License
 
