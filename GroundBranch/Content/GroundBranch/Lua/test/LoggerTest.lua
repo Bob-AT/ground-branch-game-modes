@@ -77,8 +77,6 @@ do
     test('Logger multiline output', function()
         local log = Logger.new('MyCustomMode')
 
-        local tmp = {'a', 'b'}
-
         log:Info('Running some code', tmp)
         log:Warn('Printing some state', false)
         log:Error('Too many players', 17)
@@ -89,7 +87,7 @@ do
             'INFO  MyCustomMode               2 = "b",',
             'INFO  MyCustomMode             }',
             'WARN  MyCustomMode         - Printing some state: false',
-            'ERROR MyUtil               - Too many players: 17'
+            'ERROR MyCustomMode         - Too many players: 17'
         })
     end)
 
@@ -115,7 +113,7 @@ do
         log:Debug('x')
         log:Info('x')
 
-        table.insert(expected, 'WARN MyCustomMode         - a warning')
+        table.insert(expected, 'WARN  MyCustomMode         - a warning')
         test.AssertStdout(expected)
     end)
 
