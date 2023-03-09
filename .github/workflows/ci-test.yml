@@ -1,0 +1,32 @@
+name: Test
+
+on:
+  push:
+    branches: [ "main", "release" ]
+  pull_request:
+    branches: [ "main", "release" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: golang:1.20
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Lua
+        run: apt update && apt install -y lua5.3
+
+      - name: Run Lua tests
+        run: |
+          ( cd GroundBranch/Content/GroundBranch/Lua && lua TestSuite.lua )
+
+
+      - name: Get and build gb-tools
+        run: |
+          git clone --depth=1 https://github.com/gbgmc/gb-tools.git
+          (cd gb-tools && go build && cp gb-tools ../gbt)
+
+      - name: Run gb-tools
+        run: |
+          ./gbt pack GBGMC.json
