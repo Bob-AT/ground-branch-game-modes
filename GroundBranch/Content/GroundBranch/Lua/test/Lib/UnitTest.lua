@@ -44,7 +44,7 @@ function UnitTest.AssertStringEquals(expected, actual)
         expected = table.concat(expected, '\n') .. '\n'
     end
 
-    if not (UnitTest.stdout == actual) then
+    if not (expected == actual) then
         error('Expected "' .. expected .. '" got "' .. actual .. '"')
     end
 end
