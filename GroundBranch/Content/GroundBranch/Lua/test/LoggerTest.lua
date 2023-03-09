@@ -89,7 +89,7 @@ do
             'INFO  MyCustomMode               2 = "b",',
             'INFO  MyCustomMode             }',
             'WARN  MyCustomMode         - Printing some state: false',
-            'ERROR MyUtil               - Too many players: 17'
+            'ERROR MyCustomMode         - Too many players: 17'
         })
     end)
 
@@ -115,7 +115,7 @@ do
         log:Debug('x')
         log:Info('x')
 
-        table.insert(expected, 'WARN MyCustomMode         - a warning')
+        table.insert(expected, 'WARN  MyCustomMode         - a warning')
         test.AssertStdout(expected)
     end)
 
