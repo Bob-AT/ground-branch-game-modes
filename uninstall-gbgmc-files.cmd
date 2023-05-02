@@ -24,7 +24,6 @@ del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_SNP_WDLND.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG_BLACK.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG_WDLND.kit
-del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\AK-Guy.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\HVT_AR.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\HVT_CQB.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\HVT_HDG.kit
@@ -49,6 +48,13 @@ del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Civ8.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\HVT_AR1.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\HVT_AR2.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_AR1.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_AR2.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_SMG1.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_SMG2.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_SNP1.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_SNP2.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_STG1.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_STG2.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_AR1.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_AR2.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_AR3.kit
@@ -154,6 +160,7 @@ del GroundBranch\Content\Localization\GroundBranch\en\BreakOut.csv
 del GroundBranch\Content\Localization\GroundBranch\en\BreakThrough.csv
 del GroundBranch\Content\Localization\GroundBranch\en\KillConfirmed.csv
 del GroundBranch\Content\Localization\GroundBranch\en\SecurityDetail.csv
+del .\GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\AK-Guy.kit
 rd .\GroundBranch\Content\GroundBranch\Lua\Common
 rd .\GroundBranch\Content\GroundBranch\Lua\Objectives
 rd .\GroundBranch\Content\GroundBranch\Lua\Players
