@@ -151,6 +151,7 @@ del GroundBranch\Content\GroundBranch\Mission\SmallTown\AssetExtraction.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\AssetExtractionSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\KillConfirmedSemiPermissive.mis
+del GroundBranch\Content\GroundBranch\Mission\SmallTown\KillConfirmedSemiPermissiveLowViz.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\SecurityDetail.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\SecurityDetailSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\Tanker\BreakOut.mis

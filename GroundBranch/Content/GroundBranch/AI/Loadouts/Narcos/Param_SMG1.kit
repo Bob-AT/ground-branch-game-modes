@@ -1,132 +1,100 @@
 {
-	"Ver": 11,
-	"Data": [
+	"Ver": 12,
+	"ItemData": [
 		{
-			"Type": "Profile",
-			"Data": [
+			"Type": "Head",
+			"Item": "Head:BP_Head_Male05"
+		},
+		{
+			"Type": "PrimaryFirearm",
+			"Item": "PrimaryFirearm:BP_UMP45",
+			"Children": [
 				{
-					"Type": "Head",
-					"Item": "Head:BP_Head_Male05"
+					"Item": "Magazine:BP_UMP45_Magazine",
+					"Well": "MagWell_UMP45"
+				},
+				{
+					"Item": "Sight:BP_EOTech_553",
+					"Rail": "SightRail",
+					"Slot": 1
+				},
+				{
+					"Item": "RailAttachment:BP_TacLight_M300c",
+					"Rail": "RightRail",
+					"Slot": 6
+				},
+				{
+					"Item": "RailAttachment:BP_TDStubby_VertGrip",
+					"Rail": "BottomRail"
 				}
 			]
 		},
 		{
-			"Type": "Weapons",
-			"Data": [
+			"Type": "Platform",
+			"Item": "Platform:BP_Platform_ChestRig_MCR",
+			"Skin": "OD",
+			"Children": [
 				{
-					"Type": "PrimaryFirearm",
-					"Item": "PrimaryFirearm:BP_UMP45",
+					"Item": "Pouch:BP_Pouch_PrimaryAmmo",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "POUCH_1_5"
+				},
+				{
+					"Item": "Pouch:BP_Pouch_PrimaryAmmo",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "POUCH_1_4"
+				},
+				{
+					"Item": "Pouch:BP_Pouch_PrimaryAmmo",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "POUCH_1_3"
+				},
+				{
+					"Item": "Pouch:BP_Pouch_Grenade_Flash",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "POUCH_1_2",
 					"Children": [
 						{
-							"Item": "Magazine:BP_UMP45_Magazine",
-							"Well": "MagWell_UMP45"
-						},
-						{
-							"Item": "Sight:BP_EOTech_553",
-							"Rail": "SightRail",
-							"Slot": 1
-						},
-						{
-							"Item": "RailAttachment:BP_LaserSight_Rifle",
-							"Rail": "RightRail",
-							"Slot": 1
-						},
-						{
-							"Item": "RailAttachment:BP_TDStubby_VertGrip",
-							"Rail": "BottomRail"
+							"Item": "Grenade:BP_MK13_Stun"
 						}
 					]
-				}
-			]
-		},
-		{
-			"Type": "Gear",
-			"Data": [
+				},
 				{
-					"Type": "Platform",
-					"Item": "Platform:BP_Platform_ChestRig_MCR",
+					"Item": "Pouch:BP_Pouch_Grenade_Squat",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "POUCH_1_1",
 					"Children": [
 						{
-							"Item": "Pouch:BP_Pouch_Ammo_SubmachineGun",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "POUCH_1_2",
-							"Children": [
-								{
-									"Item": "Magazine:BP_UMP45_Magazine"
-								},
-								{
-									"Item": "Magazine:BP_UMP45_Magazine"
-								}
-							]
-						},
-						{
-							"Item": "Pouch:BP_Pouch_PrimaryAmmo",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "POUCH_1_3",
-							"Children": [
-								{
-									"Item": "Magazine:BP_UMP45_Magazine"
-								},
-								{
-									"Item": "Magazine:BP_UMP45_Magazine"
-								}
-							]
-						},
-						{
-							"Item": "Pouch:BP_Pouch_PrimaryAmmo",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "POUCH_1_4",
-							"Children": [
-								{
-									"Item": "Magazine:BP_UMP45_Magazine"
-								},
-								{
-									"Item": "Magazine:BP_UMP45_Magazine"
-								}
-							]
-						},
-						{
-							"Item": "Pouch:BP_Pouch_PrimaryAmmo",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "POUCH_1_5",
-							"Children": [
-								{
-									"Item": "Magazine:BP_UMP45_Magazine"
-								},
-								{
-									"Item": "Magazine:BP_UMP45_Magazine"
-								}
-							]
+							"Item": "Grenade:BP_M67_Frag"
 						}
-					],
-					"Skin": "OD"
+					]
+				},
+				{
+					"Item": "Pouch:BP_Pouch_SecondaryAmmo",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "POUCH_1_6"
 				}
 			]
 		},
 		{
-			"Type": "Outfit",
-			"Data": [
-				{
-					"Type": "FaceWear",
-					"Item": "FaceWear:BP_Mask_Balaclava",
-					"Skin": "Black"
-				},
-				{
-					"Type": "Shirt",
-					"Item": "Shirt:BP_Shirt_Under",
-					"Skin": "Black"
-				},
-				{
-					"Type": "Pants",
-					"Item": "Pants:BP_Pants_Cargo",
-					"Skin": "OD"
-				},
-				{
-					"Type": "Footwear",
-					"Item": "Footwear:BP_Footwear_CombatBoots",
-					"Skin": "OD"
-				}
-			]
+			"Type": "FaceWear",
+			"Item": "FaceWear:BP_Mask_Balaclava",
+			"Skin": "Black"
+		},
+		{
+			"Type": "Shirt",
+			"Item": "Shirt:BP_Shirt_Under",
+			"Skin": "Black"
+		},
+		{
+			"Type": "Pants",
+			"Item": "Pants:BP_Pants_Cargo",
+			"Skin": "OD"
+		},
+		{
+			"Type": "Footwear",
+			"Item": "Footwear:BP_Footwear_CombatBoots",
+			"Skin": "OD"
 		}
 	]
 }
