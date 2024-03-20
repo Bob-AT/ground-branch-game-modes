@@ -72,16 +72,19 @@ def process_file(filename, variation_list):
         data = load_kit(filename + '-template.json')
 
         for (type, item, skin) in variation_list:
-            for obj in data['Data']:
-                if obj['Type'] == 'Outfit' or obj['Type'] == 'Gear':
-                    for outfit_item in obj['Data']:
-                        if outfit_item['Type'] == type:
-                            if item is None:
-                                obj['Data'].remove(outfit_item)
-                            else:
-                                outfit_item['Item'] = item
-                                outfit_item['Skin'] = skin
+            for outfit_item in data['ItemData']:
+                item_type = outfit_item['Type']
+                if item_type != type:
+                    continue
+                if outfit_item['Type'] == type:
+                    if item is None:
+                        obj['ItemData'].remove(outfit_item)
+                    else:
+                        outfit_item['Item'] = item
+                        outfit_item['Skin'] = skin
 
+        print("DONE")
+        return 1
         outfile_name = filename + str(i) + '.kit'
         print('Writing ' + outfile_name)
         with open(outfile_name, 'w', newline='\n') as outfile:
@@ -98,6 +101,7 @@ def main():
                    'Narcos/Tango_HDG']
     for filename_prefix in prefix_list:
         process_file('GroundBranch/Content/GroundBranch/AI/Loadouts/' + filename_prefix, VARIATIONS)
+        return 1
 
     prefix_list = ['Narcos/Param_AR',
                    'Narcos/Param_SMG',

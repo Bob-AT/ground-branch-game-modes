@@ -26,7 +26,8 @@
 		},
 		{
 			"Type": "Footwear",
-			"Item": "Footwear:BP_Footwear_WorkBoots"
+			"Item": "Footwear:BP_Footwear_WorkBoots",
+			"Skin": "Brown"
 		}
 	]
 }
