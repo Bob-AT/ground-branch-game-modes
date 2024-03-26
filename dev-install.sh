@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 set -e
 
+LUA=lua5.3
+test -f /c/tools/ZeroBraneStudio/bin/lua53.exe && LUA=/c/tools/ZeroBraneStudio/bin/lua53.exe
+
 (
 set -e
 cd GroundBranch/Content/GroundBranch/Lua
-/c/tools/ZeroBraneStudio/bin/lua53.exe TestSuite.lua
+$LUA TestSuite.lua
 )
 
 STAGING=`mktemp -d`
