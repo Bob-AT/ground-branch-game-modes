@@ -1,0 +1,30 @@
+title: "GB Game Mode Collection"
+baseurl: "/"
+url: "https://gbgmc.github.io"
+
+twitter:
+  username: "@ItIsOneOfThem"
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "https://staticdelivery.nexusmods.com/mods/4269/images/thumbnails/31/31-1652020195-1411404592.jpeg"
+  - scope:
+      path: "license.md"
+    values:
+      title: "MIT-style license"
+
+include:
+  - license.md
+
+exclude:
+  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
