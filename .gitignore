@@ -2,7 +2,9 @@
 *
 # But check folders
 !*/
-
+!docs/*
+!docs/_layouts/*
+!docs/assets/*
 # Keep
 ## gitignore
 !.gitignore

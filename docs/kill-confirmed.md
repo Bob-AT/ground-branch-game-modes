@@ -1,0 +1,58 @@
+---
+title: Kill Confirmed
+---
+
+In _Kill Confirmed_ you need to locate, neutralize and confirm elimination of all
+_HVTs_ (High Value Targets) in the AO (area of operation).
+
+**Type:** Solo, Coop, PvE.\
+**Players:** 1-8.
+
+## Objectives
+
+* Find and neutralize all HVTs, 
+* Confirm each HVT kill, 
+* Extract via exfil point.
+
+**Note:** Due to the fact that the game stops tracking AI character the moment 
+the AI is neutralized the kill is confirmed by walking over the place where the
+AI died, not where it's body is.
+
+## Settings
+
+* **Expected HVTs** - the amount of HVTs that will spawn in mission.
+* **Expected resistance** - impacts the amount of enemies that will spawn in mission. 
+The final Opposing Force count takes player count and this setting into account. 
+* **Respawn Cost** - the score value that is required for a respawn. Setting this value
+to 0 will basically allow for infinite respawns from the get-go, while setting it to
+10000 will make it almost impossible to get at least one respawn.
+* **Display Objective Messages** - whether objective messages should be displayed.
+* **Display Objective Prompts** - whether objective world prompts should be displayed.
+* **Display Score Messages** - whether score messages should be displayed.
+* **Display Score Milestone Messages** - whether score milestone messages should be displayed.
+
+## How to respawn
+
+There are two ways to respawn:
+
+1. If your team achieved or surpassed the score necessary for a respawn before you
+died, then you can respawn using the 'Respawn' option from the 'Out of Action' death
+screen.
+2. Otherwise, or if you miss-clicked, you can respawn from the Ready Room as long as
+the round is In Progress. To do so, walk up to the Laptop placed on the desk next to
+the operation board and use it.
+
+If somehow you ended up in the Spectating mode, press <kbd>F4</kbd> to go to the Ready Room.
+
+Note: For the time being if you respawn from the Ready Room you will not be shown
+on the after action report.
+
+## Additional notes
+
+* All HVTs don't wear face masks or headgear. 
+* HVTs last known locations are marked on the map.
+* Once an HVT is neutralized, but not yet confirmed eliminated, a world prompt will
+be displayed to guide the players to where they need to go to confirm the kill.
+* Once all HVTs are eliminated a world prompt will appear in order to guide players
+to the extraction point.
+* All world prompts will appear for 5 seconds every 15 seconds.

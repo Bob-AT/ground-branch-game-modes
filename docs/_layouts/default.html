@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+{%- seo -%}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-titillium-web@1.1.13/index.min.css" />
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+</head>
+<body>
+<header>
+    <div class="wrap">
+    {% if page.layout == "home" %}<h1>GB<em>GM</em>C — Ground Branch Game mode collection</h1>
+    {% else %}<h1><a href="/" title="Ground Branch Game mode collection">GB<em>GM</em>C</a> — {{page.title | escape }}</h1>{% endif %}
+    </div>
+</header>
+<main aria-label="Content">
+    <div class="wrap">
+        {% if page.layout != "home" %}
+        <div class="breadcrumbs"><a href="{{ '/' |relative_url }}">{{site.title | escape }}</a> → <span>{{page.title | escape }}</span>
+        </div>
+        {% endif %}
+        <!-- I SEE ONE OF THEM! -->
+        {{ content }}
+    </div>
+</main>
+<footer>
+    <div class="wrap">
+        <div class="discord"><a href="https://discord.com/invite/MaeMSrYDJa" title="Join our Discord"
+                                class="discord"><span>Discord</span></a></div>
+
+        <div class="fineprint">
+
+            <p>The GB game mode collection may elicit strong emotions in players. Not recommended for minors. Parental
+                guidance is strongly advised.</p>
+
+            <p>The GB game mode collection may contain: <a
+                    href="https://en.wikipedia.org/wiki/Lua_(programming_language)">Lua</a>; trace amounts of <a
+                    href="https://circuit-magazine.com/tactical-vs-tacticool/">tacticool</a>; euphemistic (and/or
+                non-euphemistic) terms for physical violence.
+            </p>
+
+            <p>
+                The story, all names, characters, and incidents portrayed in these game modes are fictitious. No
+                identification with actual persons (living or deceased), places, buildings, and products is intended or
+                should be inferred.
+            </p>
+
+            <p>No “Rainbow 6: Siege” players were harmed in the making of these game modes.</p>
+
+            <p>The GB game mode collection is open-source software under a MIT license. © Jakub ‘eelSkillz’ Baranowski
+                &amp; Bob/AT. <a href="/license">Some rights reserved</a>.</p>
+
+            <p><a href="https://www.groundbranch.com/">GROUND BRANCH</a>, the GROUND BRANCH logo, BlackFoot Studios are trademarks and/or registered trademarks of BlackFoot Studios LLC.<br>GROUND
+                BRANCH. © BLACKFOOT STUDIOS. All rights reserved.</p>
+            <p>
+
+            <p>GROUND BRANCH is a Steam Early Access game. It is currently not a finished game and may or may not change
+                significantly over the course of development. To learn more about Steam Early Access, please visit
+            <a href="http://store.steampowered.com/earlyaccessfaq/">http://store.steampowered.com/earlyaccessfaq/</a>.
+            </p>
+
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
