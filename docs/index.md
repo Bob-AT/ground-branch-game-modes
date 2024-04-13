@@ -51,7 +51,7 @@ Bug reports can be also filled via the GitHub [issue tracker](https://github.com
 
 # Installation
 
-<em title="too long; didn't read">TL;DR</em>: [Download](https://www.nexusmods.com/groundbranch/mods/31) the ZIP file and extract it contents directly into the Ground Branch installation folder.
+[Download](https://www.nexusmods.com/groundbranch/mods/31) the ZIP file and extract it contents directly into the Ground Branch installation folder.
 Detail steps, including screenshots, can be found on the [NexusMods page](https://www.nexusmods.com/groundbranch/mods/31).
 
 # Notes
