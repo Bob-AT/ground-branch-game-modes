@@ -1,103 +1,16 @@
-# Flip the gitignore on it's head - ignore everything
-*
-# But check folders
-!*/
-!docs/*
-!docs/_layouts/*
-!docs/assets/*
-# Keep
-## gitignore
-!.gitignore
-!license.md
-## Lua scritps
-!GroundBranch/Content/GroundBranch/GameMode/*.lua
-!GroundBranch/Content/GroundBranch/Lua/*.lua
-!GroundBranch/Content/GroundBranch/Lua/**/*.lua
-## Mission files
-!GroundBranch/Content/GroundBranch/Mission/**/*.mis
-## Localization files
-!GroundBranch/Content/Localization/GroundBranch/en/*.csv
-## Loadout files
-!GroundBranch/Content/GroundBranch/AI/Loadouts/*/*.kit
-!GroundBranch/Content/GroundBranch/AI/Loadouts/*/*.py
-!GroundBranch/Content/GroundBranch/AI/Loadouts/*/*.json
-!GroundBranch/Content/GroundBranch/DefaultLoadouts/*.kit
-## Helper files
-!*.gbm
-!*.json
-!*.sh
-!*.py
-!uninstall-gbgmc-files.cmd
+.idea/
+*.exe
+*.tmp
+*.zip
 
-# Ground Branch default files that would otherwise be included
-## Default GameMode scripts
-GroundBranch/Content/GroundBranch/Lua/Assassination.lua
-GroundBranch/Content/GroundBranch/Lua/Bomb.lua
-GroundBranch/Content/GroundBranch/Lua/Deathmatch.lua
-GroundBranch/Content/GroundBranch/Lua/DeathmatchValidate.lua
-GroundBranch/Content/GroundBranch/Lua/Defuse.lua
-GroundBranch/Content/GroundBranch/Lua/DTAS.lua
-GroundBranch/Content/GroundBranch/Lua/DTASValidate.lua
-GroundBranch/Content/GroundBranch/Lua/Flag.lua
-GroundBranch/Content/GroundBranch/Lua/IntelRetrieval.lua
-GroundBranch/Content/GroundBranch/Lua/IntelRetrievalValidate.lua
-GroundBranch/Content/GroundBranch/Lua/IntelTarget.lua
-GroundBranch/Content/GroundBranch/Lua/Laptop.lua
-GroundBranch/Content/GroundBranch/Lua/TeamElimination.lua
-GroundBranch/Content/GroundBranch/Lua/TeamEliminationValidate.lua
-GroundBranch/Content/GroundBranch/Lua/TerroristHunt.lua
-GroundBranch/Content/GroundBranch/Lua/TerroristHuntValidate.lua
-GroundBranch/Content/GroundBranch/Lua/Training.lua
-GroundBranch/Content/GroundBranch/Lua/Testing.lua
-GroundBranch/Content/GroundBranch/Lua/Uplink.lua
-GroundBranch/Content/GroundBranch/Lua/UplinkTarget.lua
-GroundBranch/Content/GroundBranch/Lua/UplinkValidate.lua
-## Default mission setups
-GroundBranch/Content/GroundBranch/Mission/*/Deathmatch*.mis
-GroundBranch/Content/GroundBranch/Mission/*/DTAS*.mis
-GroundBranch/Content/GroundBranch/Mission/*/IntelRetrieval*.mis
-GroundBranch/Content/GroundBranch/Mission/*/TeamElimination*.mis
-GroundBranch/Content/GroundBranch/Mission/*/TerroristHunt*.mis
-GroundBranch/Content/GroundBranch/Mission/*/Uplink*.mis
-GroundBranch/Content/GroundBranch/Mission/*/Training.mis
-## Default player loadouts
-GroundBranch/Content/GroundBranch/DefaultLoadouts/Blue.kit
-GroundBranch/Content/GroundBranch/DefaultLoadouts/Blue.res
-GroundBranch/Content/GroundBranch/DefaultLoadouts/MainMenuGuy_01.kit
-GroundBranch/Content/GroundBranch/DefaultLoadouts/MainMenuGuy_02.kit
-GroundBranch/Content/GroundBranch/DefaultLoadouts/NoTeam.kit
-GroundBranch/Content/GroundBranch/DefaultLoadouts/Red.kit
-GroundBranch/Content/GroundBranch/DefaultLoadouts/Red.res
-## Default AI loadouts
-GroundBranch/Content/GroundBranch/AI/Loadouts/BadGuys/*.kit
-## Default localization
-GroundBranch/Content/Localization/GroundBranch/en/Assassination.csv
-GroundBranch/Content/Localization/GroundBranch/en/Deathmatch.csv
-GroundBranch/Content/Localization/GroundBranch/en/Defuse.csv
-GroundBranch/Content/Localization/GroundBranch/en/DTAS.csv
-GroundBranch/Content/Localization/GroundBranch/en/GameMode.csv
-GroundBranch/Content/Localization/GroundBranch/en/GroundBranch.locres
-GroundBranch/Content/Localization/GroundBranch/en/IntelRetrieval.csv
-GroundBranch/Content/Localization/GroundBranch/en/MissionNameAdjectives.csv
-GroundBranch/Content/Localization/GroundBranch/en/MissionNameNouns.csv
-GroundBranch/Content/Localization/GroundBranch/en/TeamElimination.csv
-GroundBranch/Content/Localization/GroundBranch/en/TerroristHunt.csv
-GroundBranch/Content/Localization/GroundBranch/en/Uplink.csv
-
-# Other game modes
-## Rendezvous
-GroundBranch/Content/GroundBranch/Lua/Rendezvous.lua
-GroundBranch/Content/Localization/GroundBranch/en/Rendezvous.csv
-GroundBranch/Content/GroundBranch/Mission/*/Rendezvous.mis
-## Simple mission generator
-GroundBranch/Content/GroundBranch/Lua/GeneralBombTarget.lua
-GroundBranch/Content/GroundBranch/Lua/GeneralLaptopTarget.lua
-GroundBranch/Content/GroundBranch/Lua/SimpleMissionGenerator.lua
-GroundBranch/Content/Localization/GroundBranch/en/SimpleMissionGenerator.csv
-GroundBranch/Content/GroundBranch/Mission/*/*SimpleMissionGenerator.mis
-GroundBranch/Content/GroundBranch/AI/Loadouts/*BadGuys/BG_*.kit
-## Defuse PvE
-GroundBranch/Content/GroundBranch/Lua/BombPVE.lua
-GroundBranch/Content/GroundBranch/Lua/DefusePVE.lua
-GroundBranch/Content/Localization/GroundBranch/en/DefusePVE.csv
-GroundBranch/Content/GroundBranch/Mission/*/DefusePVE.mis
+# Exclude base game missions
+**/DTAS*.mis
+**/Deathmatch*.mis
+**/Defuse*.mis
+**/HostageRescue*.mis
+**/IntelRetrieval*.mis
+**/LastManStanding*.mis
+**/TerroristHunt*.mis
+**/TeamElimination*.mis
+**/Training*.mis
+**/Uplink*.mis
