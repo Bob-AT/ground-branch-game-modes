@@ -7,7 +7,7 @@
 		},
 		{
 			"Type": "PrimaryFirearm",
-			"Item": "PrimaryFirearm:BP_M4_A1",
+			"Item": "PrimaryFirearm:BP_M4_Block_II",
 			"Children": [
 				{
 					"Item": "Magazine:BP_STANAG556_Magazine",
@@ -15,37 +15,30 @@
 					"BulletId": "Bullet:BP_556x45mmNATO_FMJ"
 				},
 				{
-					"Item": "Sight:BP_MicroT2_Tall",
+					"Item": "Sight:BP_Optical_ACOG_TA31",
 					"Rail": "RearSightRail",
-					"Slot": 8
+					"Slot": 6,
+					"Children": [
+						{
+							"Item": "Sight:BP_Trijicon_RMR",
+							"Comp": "SM_ACOG_TA31"
+						}
+					]
 				},
 				{
-					"Item": "RailAttachment:BP_AN_PEQ15",
-					"Rail": "TopRail",
-					"Slot": 10
-				},
-				{
-					"Item": "RailAttachment:BP_Foregrip_Vertical",
+					"Item": "RailAttachment:BP_Magpul_AFG2",
 					"Rail": "BottomRail",
-					"Slot": 4
+					"Slot": 6
 				},
 				{
-					"Item": "RailAttachment:BP_RailCover_Short",
-					"Rail": "BottomRail",
-					"Slot": 8
-				},
-				{
-					"Item": "RailAttachment:BP_TacLight_M300c",
+					"Item": "RailAttachment:BP_TacLight_Rifle",
 					"Rail": "RightRail",
-					"Slot": 12
+					"Slot": 27
 				},
 				{
-					"Item": "RailAttachment:BP_RailCover_Short",
-					"Rail": "RightRail"
-				},
-				{
-					"Item": "RailAttachment:BP_RailCover",
-					"Rail": "LeftRail"
+					"Item": "RailAttachment:BP_LaserSight_Rifle",
+					"Rail": "LeftRail",
+					"Slot": 26
 				}
 			]
 		},
