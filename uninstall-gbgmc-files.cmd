@@ -1,5 +1,6 @@
 @echo Uninstalling GBGMC files
 @pause
+
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_AR_BLACK.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_AR_WDLND.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_CQB_BLACK.kit
@@ -24,6 +25,7 @@ del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_SNP_WDLND.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG_BLACK.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG_WDLND.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\AK-Guy.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\HVT_AR.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\HVT_CQB.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\HVT_HDG.kit
@@ -95,6 +97,8 @@ del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG5.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG6.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG7.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG8.kit
+del GroundBranch\Content\GroundBranch\DefaultLoadouts\BreakOut.kit
+del GroundBranch\Content\GroundBranch\DefaultLoadouts\NoTeamCamouflage.kit
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtraction.lua
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtractionSemiPermissive.lua
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtractionSemiPermissiveValidate.lua
@@ -162,7 +166,7 @@ del GroundBranch\Content\Localization\GroundBranch\en\BreakOut.csv
 del GroundBranch\Content\Localization\GroundBranch\en\BreakThrough.csv
 del GroundBranch\Content\Localization\GroundBranch\en\KillConfirmed.csv
 del GroundBranch\Content\Localization\GroundBranch\en\SecurityDetail.csv
-del .\GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\AK-Guy.kit
+
 rd .\GroundBranch\Content\GroundBranch\Lua\Common
 rd .\GroundBranch\Content\GroundBranch\Lua\Objectives
 rd .\GroundBranch\Content\GroundBranch\Lua\Players
