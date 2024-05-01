@@ -11,7 +11,7 @@ $LUA TestSuite.lua
 )
 
 STAGING=`mktemp -d`
-UNINSTALL="$PWD/uninstall-gbgmc-files.cmd"
+UNINSTALL="$PWD/uninstall-gbgmc-files.cmd.tmp"
 
 rm -f GBGMC.zip
 ./gbt pack GBGMC.json

@@ -2,14 +2,7 @@
 	Asset Extraction
 	PvE Ground Branch game mode by Bob/AT
 
-	Notes for Mission Editing:
-
-		1. Start with a regular 'SecurityDetail' mission
-		2. Add an InsertionPoint with tag 'Asset'
-		3. Add PlayerStarts to InsertionPoint via Editor button.
-				Note that there must be EXACTLY one PlayerStart.
-				Therefore, delete 7 of the 8 PlayerStarts.
-		4. Add orphaned (Group=None) PlayerStarts with tag 'Asset'
+	See docs/mission-editing.md.
 ]]--
 
 --[[

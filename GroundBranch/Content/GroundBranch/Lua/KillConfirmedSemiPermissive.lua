@@ -1,16 +1,6 @@
 --[[
 	Kill Confirmed (Semi-Permissive)
 	PvE Ground Branch game mode by Bob/AT
-	2022-06-23
-
-	https://github.com/JakBaranowski/ground-branch-game-modes/issues/26
-
-	Notes for Mission Editing:
-
-		1. Start with a regular 'Kill Confirmed' mission
-		2. Add non-combatants
-			- use team id = 10
-			- one of the unarmed 'Civ*' kits
 
 	Notes on CollateralDamageThreshold:
 

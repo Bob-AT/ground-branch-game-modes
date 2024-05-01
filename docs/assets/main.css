@@ -148,9 +148,10 @@ kbd { /* From AsciiDoctor */
 }
 
 ol {list-style: upper-roman; }
+ol li ol {list-style: decimal; }
 ol li::marker {font-weight: 600; color: #ff2a2a; }
-ul ul li::marker {
-    content: "‣ ";
+ol ul li::marker, ul ul li::marker {
+    content: "‣  ";
     color: #ff2a2a;
 }
 

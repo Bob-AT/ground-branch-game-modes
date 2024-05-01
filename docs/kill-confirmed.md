@@ -10,13 +10,22 @@ _HVTs_ (High Value Targets) in the AO (area of operation).
 
 ## Objectives
 
-* Find and neutralize all HVTs, 
-* Confirm each HVT kill, 
-* Extract via exfil point.
+- **Primary**
+    - Find and neutralize all HVTs,
+    - Confirm each HVT kill,
+    - Extract via exfil point.
+- **Secondary**
+    - Avoid collateral damage. (Only in _Semi-Permissive_ variant)
 
 **Note:** Due to the fact that the game stops tracking AI character the moment 
 the AI is neutralized the kill is confirmed by walking over the place where the
 AI died, not where it's body is.
+
+**Variations:**
+
+1. _Security Detail_: Everyone is a combatant.
+2. _Security Detail (Semi-Permissive)_: Combatant and non-combatants are present. Combatants are wearing balaclavas and chest rigs.
+3. _Security Detail (Semi-Permissive, LowViz)_: Combatant and non-combatants are present. Combatants are using low visibility gear.
 
 ## Settings
 
@@ -49,7 +58,7 @@ on the after action report.
 
 ## Additional notes
 
-* All HVTs don't wear face masks or headgear. 
+* In regular mode all HVTs don't wear face masks or headgear. In semi-permissive all HVTs wear a black hat and a scarf. 
 * HVTs last known locations are marked on the map.
 * Once an HVT is neutralized, but not yet confirmed eliminated, a world prompt will
 be displayed to guide the players to where they need to go to confirm the kill.

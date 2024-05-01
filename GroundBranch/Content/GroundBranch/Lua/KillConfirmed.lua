@@ -1,7 +1,7 @@
 --[[
 	Kill Confirmed
 	PvE Ground Branch game mode by Jakub 'eelSkillz' Baranowski
-	More details @ https://github.com/JakBaranowski/ground-branch-game-modes/wiki/game-mode-kill-confirmed
+	See <https://gbgmc.github.io/kill-confirmed>.
 ]]--
 
 --[[
