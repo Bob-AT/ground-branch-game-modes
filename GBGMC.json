@@ -7,8 +7,6 @@
 		"GroundBranch/Content/GroundBranch/AI/Loadouts/MidEas/*.kit",
 		"GroundBranch/Content/GroundBranch/AI/Loadouts/Narcos/*.kit",
 
-		"GroundBranch/Content/GroundBranch/DefaultLoadouts/BreakOut.kit",
-		"GroundBranch/Content/GroundBranch/DefaultLoadouts/NoTeamCamouflage.kit",
 		"GroundBranch/Content/GroundBranch/GameMode/*.lua",
 
 		"GroundBranch/Content/GroundBranch/Lua/Common/*.lua",
