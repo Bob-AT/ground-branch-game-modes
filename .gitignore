@@ -3,6 +3,10 @@
 *.tmp
 *.zip
 
+gbt
+gbt.exe
+
+
 # Exclude base game missions
 **/DTAS*.mis
 **/Deathmatch*.mis
