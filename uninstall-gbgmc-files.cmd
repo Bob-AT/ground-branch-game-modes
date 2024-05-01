@@ -95,7 +95,6 @@ del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG5.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG6.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG7.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_STG8.kit
-del GroundBranch\Content\GroundBranch\DefaultLoadouts\BreakOut.kit
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtraction.lua
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtractionSemiPermissive.lua
 del GroundBranch\Content\GroundBranch\GameMode\AssetExtractionSemiPermissiveValidate.lua

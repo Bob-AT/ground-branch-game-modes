@@ -132,7 +132,7 @@ local BreakOut = {
 	PlayerTeams = {
 		BluFor = {
 			TeamId = 1,
-			Loadout = 'BreakOut',
+			Loadout = 'NoTeam',
 			Script = nil
 		},
 	},
