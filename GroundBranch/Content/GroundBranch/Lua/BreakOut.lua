@@ -499,4 +499,12 @@ end
 
 --#endregion
 
+function BreakOut:OnRandomiseObjectives()
+	self.Objectives.Exfiltrate:SelectPoint(true)
+end
+
+function BreakOut:CanRandomiseObjectives()
+	return true
+end
+
 return BreakOut

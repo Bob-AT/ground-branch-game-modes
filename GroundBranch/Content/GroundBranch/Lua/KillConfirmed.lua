@@ -626,4 +626,13 @@ end
 
 --#endregion
 
+function KillConfirmed:OnRandomiseObjectives()
+	self.Objectives.Exfiltrate:SelectPoint(false)
+	self.Objectives.ConfirmKill:ShuffleSpawns()
+end
+
+function KillConfirmed:CanRandomiseObjectives()
+	return true
+end
+
 return KillConfirmed

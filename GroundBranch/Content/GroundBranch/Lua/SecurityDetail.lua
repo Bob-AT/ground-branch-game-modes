@@ -1128,4 +1128,12 @@ end
 
 --#endregion
 
+function Mode:OnRandomiseObjectives()
+	self:RandomizeObjectives()
+end
+
+function Mode:CanRandomiseObjectives()
+	return true
+end
+
 return Mode

@@ -505,4 +505,12 @@ end
 
 --#endregion
 
+function BreakThrough:OnRandomiseObjectives()
+	self.Objectives.Exfiltrate:SelectPoint(true)
+end
+
+function BreakThrough:CanRandomiseObjectives()
+	return true
+end
+
 return BreakThrough
