@@ -1,155 +1,128 @@
 {
-	"Ver": 11,
-	"Data": [
+	"Ver": 12,
+	"ItemData": [
 		{
-			"Type": "Profile",
-			"Data": [
+			"Type": "Head",
+			"Item": "Head:BP_Head_Male01"
+		},
+		{
+			"Type": "PrimaryFirearm",
+			"Item": "PrimaryFirearm:BP_M16A4",
+			"Children": [
 				{
-					"Type": "Head",
-					"Item": "Head:BP_Head_Male01"
+					"Item": "Magazine:BP_STANAG556_Magazine",
+					"Well": "MagWell_STANAG556",
+					"BulletId": "Bullet:BP_556x45mmNATO_FMJ"
+				},
+				{
+					"Item": "Sight:BP_M16A4_CarryHandle",
+					"Rail": "RearSightRail",
+					"Slot": 1
+				},
+				{
+					"Item": "RailAttachment:BP_RailCover",
+					"Rail": "TopRail"
+				},
+				{
+					"Item": "RailAttachment:BP_RailCover_Short",
+					"Rail": "TopRail",
+					"Slot": 16
+				},
+				{
+					"Item": "RailAttachment:BP_Foregrip_Vertical",
+					"Rail": "BottomRail",
+					"Slot": 8
+				},
+				{
+					"Item": "RailAttachment:BP_RailCover",
+					"Rail": "BottomRail",
+					"Slot": 12
+				},
+				{
+					"Item": "RailAttachment:BP_RailCover",
+					"Rail": "RightRail"
+				},
+				{
+					"Item": "RailAttachment:BP_RailCover",
+					"Rail": "LeftRail"
+				},
+				{
+					"Item": "RailAttachment:BP_TacLight_Rifle",
+					"Rail": "LeftRail",
+					"Slot": 20
 				}
 			]
 		},
 		{
-			"Type": "Weapons",
-			"Data": [
+			"Type": "HeadGear",
+			"Item": "HeadGear:BP_Hat_BaseBall_Rev",
+			"Skin": "Tan"
+		},
+		{
+			"Type": "Belt",
+			"Item": "Belt:BP_Battlebelt_TF",
+			"Skin": "Tan",
+			"Children": [
 				{
-					"Type": "PrimaryFirearm",
-					"Item": "PrimaryFirearm:BP_M16A4",
+					"Item": "Pouch:BP_Pouch_SecondaryAmmo",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "Pouch_7"
+				},
+				{
+					"Item": "Pouch:BP_Pouch_PrimaryAmmo",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "Pouch_5"
+				},
+				{
+					"Item": "Pouch:BP_Pouch_Grenade_Flash",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "Pouch_4",
 					"Children": [
 						{
-							"Item": "Magazine:BP_STANAG556_Magazine",
-							"Well": "MagWell_STANAG556",
-							"BulletId": "Bullet:BP_556x45mmNATO_FMJ"
-						},
+							"Item": "Grenade:BP_MK13_Stun"
+						}
+					]
+				},
+				{
+					"Item": "Pouch:BP_Pouch_Grenade_Flash",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "Pouch_3",
+					"Children": [
 						{
-							"Item": "Sight:BP_Trijicon_SRS",
-							"Rail": "RearSightRail",
-							"Slot": 4
-						},
+							"Item": "Grenade:BP_MK13_Stun"
+						}
+					]
+				},
+				{
+					"Item": "Pouch:BP_Pouch_Grenade_Squat",
+					"Comp": "PlatformMeshComponent0",
+					"Socket": "Pouch_1",
+					"Children": [
 						{
-							"Item": "RailAttachment:BP_RailCover",
-							"Rail": "TopRail",
-							"Slot": 1
-						},
-						{
-							"Item": "RailAttachment:BP_RailCover",
-							"Rail": "BottomRail",
-							"Slot": 1
-						},
-						{
-							"Item": "RailAttachment:BP_RailCover",
-							"Rail": "RightRail",
-							"Slot": 1
-						},
-						{
-							"Item": "RailAttachment:BP_LaserSight_Rifle",
-							"Rail": "RightRail",
-							"Slot": 19
-						},
-						{
-							"Item": "RailAttachment:BP_RailCover",
-							"Rail": "LeftRail",
-							"Slot": 1
+							"Item": "Grenade:BP_M67_Frag"
 						}
 					]
 				}
 			]
 		},
 		{
-			"Type": "Gear",
-			"Data": [
-				{
-					"Type": "HeadGear",
-					"Item": "HeadGear:BP_Hat_BaseBall_Rev",
-					"Skin": "Tan"
-				},
-				{
-					"Type": "Belt",
-					"Item": "Belt:BP_Battlebelt_TF",
-					"Skin": "Tan",
-					"Children": [
-						{
-							"Item": "Pouch:BP_Pouch_Ammo_AR-15_PMAG",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "Pouch_1",
-							"Children": [
-								{
-									"Item": "Magazine:BP_STANAG556_Magazine",
-									"BulletId": "Bullet:BP_556x45mmNATO_FMJ"
-								}
-							]
-						},
-						{
-							"Item": "Pouch:BP_Pouch_Ammo_AR-15_PMAG",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "Pouch_7",
-							"Children": [
-								{
-									"Item": "Magazine:BP_STANAG556_Magazine",
-									"BulletId": "Bullet:BP_556x45mmNATO_FMJ"
-								}
-							]
-						},
-						{
-							"Item": "Pouch:BP_Pouch_Ammo_AR-15_PMAG",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "Pouch_5",
-							"Children": [
-								{
-									"Item": "Magazine:BP_STANAG556_Magazine",
-									"BulletId": "Bullet:BP_556x45mmNATO_FMJ"
-								}
-							]
-						},
-						{
-							"Item": "Pouch:BP_Pouch_Ammo_AR-15_PMAG",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "Pouch_4",
-							"Children": [
-								{
-									"Item": "Magazine:BP_STANAG556_Magazine",
-									"BulletId": "Bullet:BP_556x45mmNATO_FMJ"
-								}
-							]
-						},
-						{
-							"Item": "Pouch:BP_Pouch_Ammo_AR-15_PMAG",
-							"Comp": "PlatformMeshComponent0",
-							"Socket": "Pouch_3",
-							"Children": [
-								{
-									"Item": "Magazine:BP_STANAG556_Magazine",
-									"BulletId": "Bullet:BP_556x45mmNATO_FMJ"
-								}
-							]
-						}
-					]
-				}
-			]
+			"Type": "EyeWear",
+			"Item": "EyeWear:BP_Sunglasses_Civilian"
 		},
 		{
-			"Type": "Outfit",
-			"Data": [
-				{
-					"Type": "EyeWear",
-					"Item": "EyeWear:BP_Sunglasses_Civilian"
-				},
-				{
-					"Type": "Shirt",
-					"Item": "Shirt:BP_Shirt_ButtonUp",
-					"Skin": "Tan"
-				},
-				{
-					"Type": "Pants",
-					"Item": "Pants:BP_Pants_Jeans",
-					"Skin": "Blue"
-				},
-				{
-					"Type": "Footwear",
-					"Item": "Footwear:BP_Footwear_WorkBoots"
-				}
-			]
+			"Type": "Shirt",
+			"Item": "Shirt:BP_Shirt_ButtonUp",
+			"Skin": "Tan"
+		},
+		{
+			"Type": "Pants",
+			"Item": "Pants:BP_Pants_Jeans",
+			"Skin": "Blue"
+		},
+		{
+			"Type": "Footwear",
+			"Item": "Footwear:BP_Footwear_WorkBoots",
+			"Skin": "Brown"
 		}
 	]
 }

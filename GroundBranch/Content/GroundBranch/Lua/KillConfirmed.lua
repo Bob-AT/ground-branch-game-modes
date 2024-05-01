@@ -1,7 +1,7 @@
 --[[
 	Kill Confirmed
 	PvE Ground Branch game mode by Jakub 'eelSkillz' Baranowski
-	More details @ https://github.com/JakBaranowski/ground-branch-game-modes/wiki/game-mode-kill-confirmed
+	See <https://gbgmc.github.io/kill-confirmed>.
 ]]--
 
 --[[
@@ -625,5 +625,14 @@ function KillConfirmed:UpdateCompletedObjectives()
 end
 
 --#endregion
+
+function KillConfirmed:OnRandomiseObjectives()
+	self.Objectives.Exfiltrate:SelectPoint(false)
+	self.Objectives.ConfirmKill:ShuffleSpawns()
+end
+
+function KillConfirmed:CanRandomiseObjectives()
+	return true
+end
 
 return KillConfirmed

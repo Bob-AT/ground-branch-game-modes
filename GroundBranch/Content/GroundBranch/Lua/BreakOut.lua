@@ -132,7 +132,7 @@ local BreakOut = {
 	PlayerTeams = {
 		BluFor = {
 			TeamId = 1,
-			Loadout = 'BreakOut',
+			Loadout = 'NoTeam',
 			Script = nil
 		},
 	},
@@ -420,7 +420,7 @@ end
 
 function BreakOut:CheckSpawnedAiTimer()
 	local aiControllers = ai.GetControllers(
-		'GroundBranch.GBAIController',
+		nil,
 		self.AiTeams.OpFor.Tag,
 		255,
 		255
@@ -477,7 +477,7 @@ function BreakOut:CheckBluForCountTimer()
 		return
 	end
 	if self.PlayerTeams.BluFor.Script:IsWipedOut() then
-		timer.Clear(self, 'CheckBluForExfil')
+		timer.Clear('CheckBluForExfil')
 		gamemode.AddGameStat('Result=None')
 		gamemode.AddGameStat('Summary=BluForEliminated')
 		gamemode.SetRoundStage('PostRoundWait')
@@ -498,5 +498,13 @@ function BreakOut:GetPlayerTeamScript()
 end
 
 --#endregion
+
+function BreakOut:OnRandomiseObjectives()
+	self.Objectives.Exfiltrate:SelectPoint(true)
+end
+
+function BreakOut:CanRandomiseObjectives()
+	return true
+end
 
 return BreakOut

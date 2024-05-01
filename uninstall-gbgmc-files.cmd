@@ -1,5 +1,6 @@
 @echo Uninstalling GBGMC files
 @pause
+
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_AR_BLACK.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_AR_WDLND.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_CQB_BLACK.kit
@@ -8,21 +9,21 @@ del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_SNP_BLACK.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_SNP_WDLND.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_STG_BLACK.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\HVT_STG_WDLND.kit
-del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_AR.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_AR_BLACK.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_AR.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_AR_WDLND.kit
-del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_CQB.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_CQB_BLACK.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_CQB.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_CQB_WDLND.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_HVT_AR.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_HVT_CQB.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_HVT_SNP.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_HVT_STG.kit
-del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_SNP.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_SNP_BLACK.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_SNP.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_SNP_WDLND.kit
-del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG_BLACK.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\EurAsi\SO_STG_WDLND.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\AK-Guy.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\MidEas\HVT_AR.kit
@@ -49,6 +50,13 @@ del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Civ8.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\HVT_AR1.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\HVT_AR2.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_AR1.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_AR2.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_SMG1.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_SMG2.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_SNP1.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_SNP2.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_STG1.kit
+del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Param_STG2.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_AR1.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_AR2.kit
 del GroundBranch\Content\GroundBranch\AI\Loadouts\Narcos\Tango_AR3.kit
@@ -131,21 +139,25 @@ del GroundBranch\Content\GroundBranch\Lua\Spawns\Groups.lua
 del GroundBranch\Content\GroundBranch\Lua\Spawns\Priority.lua
 del GroundBranch\Content\GroundBranch\Lua\Spawns\Random.lua
 del GroundBranch\Content\GroundBranch\Mission\747\KillConfirmed.mis
+del GroundBranch\Content\GroundBranch\Mission\747\KillConfirmedSemiPermissive_(LowViz).mis
 del GroundBranch\Content\GroundBranch\Mission\747\KillConfirmedSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\Arena\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\City\BreakOut.mis
 del GroundBranch\Content\GroundBranch\Mission\City\BreakThrough.mis
 del GroundBranch\Content\GroundBranch\Mission\City\KillConfirmed.mis
-del GroundBranch\Content\GroundBranch\Mission\Compound\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\Compound\KillConfirmed_AceOfSpades.mis
+del GroundBranch\Content\GroundBranch\Mission\Compound\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\Creek\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\RunDown\BreakOut.mis
 del GroundBranch\Content\GroundBranch\Mission\RunDown\KillConfirmed.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\AssetExtraction.mis
+del GroundBranch\Content\GroundBranch\Mission\SmallTown\AssetExtractionSemiPermissive_(LowViz).mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\AssetExtractionSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\KillConfirmed.mis
+del GroundBranch\Content\GroundBranch\Mission\SmallTown\KillConfirmedSemiPermissive_(LowViz).mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\KillConfirmedSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\SecurityDetail.mis
+del GroundBranch\Content\GroundBranch\Mission\SmallTown\SecurityDetailSemiPermissive_(LowViz).mis
 del GroundBranch\Content\GroundBranch\Mission\SmallTown\SecurityDetailSemiPermissive.mis
 del GroundBranch\Content\GroundBranch\Mission\Tanker\BreakOut.mis
 del GroundBranch\Content\GroundBranch\Mission\Tanker\KillConfirmed.mis
@@ -154,6 +166,7 @@ del GroundBranch\Content\Localization\GroundBranch\en\BreakOut.csv
 del GroundBranch\Content\Localization\GroundBranch\en\BreakThrough.csv
 del GroundBranch\Content\Localization\GroundBranch\en\KillConfirmed.csv
 del GroundBranch\Content\Localization\GroundBranch\en\SecurityDetail.csv
+
 rd .\GroundBranch\Content\GroundBranch\Lua\Common
 rd .\GroundBranch\Content\GroundBranch\Lua\Objectives
 rd .\GroundBranch\Content\GroundBranch\Lua\Players

@@ -1,75 +1,83 @@
 {
-	"Ver": 11,
-	"Data": [
+	"Ver": 12,
+	"ItemData": [
 		{
-			"Type": "Profile",
-			"Data": [
-				{
-					"Type": "Head",
-					"Item": "Head:BP_Soldier_Ru_Head"
-				}
-			]
+			"Type": "Head",
+			"Item": "Head:BP_Soldier_Ru_Head"
 		},
 		{
-			"Type": "Weapons",
-			"Data": [
+			"Type": "PrimaryFirearm",
+			"Item": "PrimaryFirearm:BP_AKS-74u_Tacticool",
+			"Children": [
 				{
-					"Type": "PrimaryFirearm",
-					"Item": "PrimaryFirearm:BP_AKS-74u_Tacticool",
+					"Item": "Magazine:BP_AK545_Magazine",
+					"Well": "MagWell_AK545"
+				},
+				{
+					"Item": "RailAttachment:BP_AN_PEQ15",
+					"Rail": "TopRail",
+					"Slot": 3
+				},
+				{
+					"Item": "RailAttachment:BP_WMLx_Rifle",
+					"Rail": "LeftRail",
+					"Slot": 9
+				},
+				{
+					"Item": "RailAttachment:BP_RVG_VertGrip",
+					"Rail": "BottomRail",
+					"Slot": 1
+				},
+				{
+					"Item": "Attachment:BP_AKRailAdapter",
 					"Children": [
 						{
-							"Item": "Magazine:BP_AK545_Magazine",
-							"Well": "MagWell_AK545",
-							"Skin": "Black"
-						},
-						{
-							"Item": "RailAttachment:BP_LaserSight_Rifle",
-							"Rail": "RightRail",
-							"Slot": 8
-						},
-						{
-							"Item": "RailAttachment:BP_RVG_VertGrip",
-							"Rail": "BottomRail",
-							"Slot": 1
+							"Item": "Sight:BP_Kobra_EKP8",
+							"Rail": "GBRail",
+							"Slot": 2
 						}
 					]
+				},
+				{
+					"Item": "MuzzleDevice:BP_Suppressor_AK_545_PBS4"
 				}
 			]
 		},
 		{
-			"Type": "Gear",
-			"Data": [
+			"Type": "HeadGear",
+			"Item": "HeadGear:BP_Helmet_Mich_C",
+			"Skin": "OD",
+			"Children": [
 				{
-					"Type": "HeadGear",
-					"Item": "HeadGear:BP_Helmet_Mich_C",
-					"Skin": "OD"
+					"Item": "Attachment:BP_ANPVS_15_NVG"
 				},
 				{
-					"Type": "Platform",
-					"Item": "Platform:BP_RuSpec_Vest"
+					"Item": "Attachment:BP_ComTac"
 				},
 				{
-					"Type": "Pouch",
-					"Item": "Pouch:BP_RuSpec_Equipment"
+					"Item": "Attachment:BP_IRStrobe"
 				}
 			]
 		},
 		{
-			"Type": "Outfit",
-			"Data": [
-				{
-					"Type": "Shirt",
-					"Item": "Shirt:BP_RuSpec_Sleeve"
-				},
-				{
-					"Type": "Pants",
-					"Item": "Pants:BP_RuSpec_Pants"
-				},
-				{
-					"Type": "Gloves",
-					"Item": "Gloves:BP_RuSpec_Gloves"
-				}
-			]
+			"Type": "Platform",
+			"Item": "Platform:BP_Soldier_Ru_Vest"
+		},
+		{
+			"Type": "Pouch",
+			"Item": "Pouch:BP_Soldier_Ru_Bags"
+		},
+		{
+			"Type": "Shirt",
+			"Item": "Shirt:BP_Soldier_Ru_Torso"
+		},
+		{
+			"Type": "Pants",
+			"Item": "Pants:BP_Soldier_Ru_Legs"
+		},
+		{
+			"Type": "Gloves",
+			"Item": "Gloves:BP_Soldier_Ru_Hands"
 		}
 	]
 }

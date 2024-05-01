@@ -13,6 +13,12 @@ In _Asset Extraction_ you need to extract an _Asset_ (undercover agent).
 * Avoid collateral damage. (Only in _Semi-Permissive_ variant) 
 * Extract via exfil point.
 
+Variations:
+
+1. _Asset Extraction_: Everyone is a combatant.
+2. _Asset Extraction (Semi-Permissive)_: Combatant and non-combatants are present. Combatants are wearing balaclavas and chest rigs.
+3. _Asset Extraction (Semi-Permissive, LowViz)_: Combatant and non-combatants are present. Combatants are using low visibility gear.
+
 ## Game play
 
 1. One player selects the "_Asset_ (0/1)" insertion point. All other players select a regular insertion point.

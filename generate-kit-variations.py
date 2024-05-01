@@ -40,6 +40,13 @@ VARIATIONS = [
      ]
 ]
 
+VARIATIONS_FOR_PARAM = [
+    # 1
+    [('Shirt', 'Shirt:BP_Shirt_Under', 'Black')],
+    # 2
+    [('Shirt', 'Shirt:BP_Shirt_Under', 'Grey')]
+]
+
 VARIATIONS_FOR_HVT = [
     # 1
     [('Shirt', 'Shirt:BP_Shirt_ButtonUp_Plain', 'Black')],
@@ -57,7 +64,7 @@ def load_kit(name):
     return data
 
 
-def process_file(filename, variation_list, special = None):
+def process_file(filename, variation_list):
     i = 0
     print("Processing " + filename)
     for variation_list in variation_list:
@@ -65,15 +72,16 @@ def process_file(filename, variation_list, special = None):
         data = load_kit(filename + '-template.json')
 
         for (type, item, skin) in variation_list:
-            for obj in data['Data']:
-                if obj['Type'] == 'Outfit' or obj['Type'] == 'Gear':
-                    for outfit_item in obj['Data']:
-                        if outfit_item['Type'] == type:
-                            if item is None:
-                                obj['Data'].remove(outfit_item)
-                            else:
-                                outfit_item['Item'] = item
-                                outfit_item['Skin'] = skin
+            for outfit_item in data['ItemData']:
+                item_type = outfit_item['Type']
+                if item_type != type:
+                    continue
+                if outfit_item['Type'] == type:
+                    if item is None:
+                        data['ItemData'].remove(outfit_item)
+                    else:
+                        outfit_item['Item'] = item
+                        outfit_item['Skin'] = skin
 
         outfile_name = filename + str(i) + '.kit'
         print('Writing ' + outfile_name)
@@ -83,11 +91,24 @@ def process_file(filename, variation_list, special = None):
 
 
 def main():
-    prefix_list = ['Narcos/Civ', 'Narcos/Tango_AR', 'Narcos/Tango_SMG', 'Narcos/Tango_STG', 'Narcos/Tango_HDG']
+    prefix_list = ['Narcos/Civ',
+                   'Narcos/Tango_AR',
+                   'Narcos/Tango_SMG',
+                   'Narcos/Tango_SNP',
+                   'Narcos/Tango_STG',
+                   'Narcos/Tango_HDG']
     for filename_prefix in prefix_list:
         process_file('GroundBranch/Content/GroundBranch/AI/Loadouts/' + filename_prefix, VARIATIONS)
-    process_file('GroundBranch/Content/GroundBranch/AI/Loadouts/Narcos/Tango_SNP', VARIATIONS, 'SNIPER')
-    process_file('GroundBranch/Content/GroundBranch/AI/Loadouts/Narcos/HVT_AR', VARIATIONS_FOR_HVT, 'HVT')
+
+    prefix_list = ['Narcos/Param_AR',
+                   'Narcos/Param_SMG',
+                   'Narcos/Param_SNP',
+                   'Narcos/Param_STG'
+                   ]
+    for filename_prefix in prefix_list:
+        process_file('GroundBranch/Content/GroundBranch/AI/Loadouts/' + filename_prefix, VARIATIONS_FOR_PARAM)
+
+    process_file('GroundBranch/Content/GroundBranch/AI/Loadouts/Narcos/HVT_AR', VARIATIONS_FOR_HVT)
 
 
 if __name__ == "__main__":

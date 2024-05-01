@@ -233,7 +233,7 @@ function Defend:OnCharacterDied(Character, CharacterController, KillerController
 				end
 				self.AiTeams.OpFor.ActiveCount = self.AiTeams.OpFor.ActiveCount - 1
 				if self.AiTeams.OpFor.ActiveCount <= 0 then
-					timer.Clear(self, 'WaveTimer')
+					timer.Clear('WaveTimer')
 					self:SpawnWave()
 				end
 			else
@@ -553,7 +553,7 @@ function Defend:SpawnWave()
 end
 
 function Defend:CheckSpawnedAi()
-	local controllers = ai.GetControllers('GroundBranch.GBAIController')
+	local controllers = ai.GetControllers(nil)
 	self.AiTeams.OpFor.ActiveCount = #controllers
 	print('### Checked active ai ' .. self.AiTeams.OpFor.ActiveCount)
 end

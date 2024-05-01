@@ -129,7 +129,7 @@ end
 ---Makes sure that the HVT count is equal to the HVT ai controllers count.
 function ConfirmKill:checkSpawnsTimer()
     local hvtControllers = ai.GetControllers(
-        'GroundBranch.GBAIController',
+        nil,
         self.HVT.Tag,
         255,
         255
@@ -185,7 +185,7 @@ end
 ---distance determine how much time until next check.
 function ConfirmKill:ShouldConfirmKillTimer()
 	if self.HVT.EliminatedNotConfirmedCount <= 0 then
-        timer.Clear(self, self.PromptTimer.Name)
+        timer.Clear(self.PromptTimer.Name)
 		return
 	end
 	local LowestDist = self.ObjectiveTimer.TimeStep.Max * 1000.0

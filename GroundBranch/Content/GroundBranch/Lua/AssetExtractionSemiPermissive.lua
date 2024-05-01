@@ -1,9 +1,3 @@
---[[
-	Security Detail (Semi-Permissive)
-
-	See SecurityDetail.lua
-]]--
-
 package.loaded['AssetExtraction'] = nil -- clear cache
 package.loaded['SecurityDetail'] = nil  -- clear cache
 

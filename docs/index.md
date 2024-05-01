@@ -1,6 +1,6 @@
 ---
 layout: home
-description: "Game modes: Asset Extraction, Break Out, Break Through, Kill Confirmed (Fully & Semi-Permissive), Security Detail"
+description: "Game modes: Asset Extraction, Break Out, Break Through, Kill Confirmed, Security Detail"
 ---
 
 The _GB Game Mode Collection_ provides various [open-source](/license) game modes for the game "[GROUND BRANCH](https://www.groundbranch.com/)".
@@ -14,8 +14,7 @@ The following <abbr title="Player versus environment">PvE</abbr> game modes are 
 - [Asset Extraction](./asset-extraction): extract an _Asset_ (undercover agent).
 - [Break Out](./break-out): escape from a _dangerous_ situation.
 - [Break Through](./break-through): traversing through terrain that is controlled by _hostiles_.
-- [Kill Confirmed](./kill-confirmed): locate, neutralize and confirm elimination of all _HVTs_ (High Value Targets) in the AO. 
-- [Kill Confirmed (Semi-Permissive)](./kill-confirmed-sp): locate, neutralize and confirm elimination of all _HVTs_ in the AO. Avoid collateral damage.
+- [Kill Confirmed](./kill-confirmed): locate, neutralize and confirm elimination of all _HVTs_ (High Value Targets) in the AO.
 - [Security Detail](./security-detail): protect the _principal_ (VIP).
 
 # Discord
@@ -27,34 +26,40 @@ Bug reports can be also filled via the GitHub [issue tracker](https://github.com
 
 # Missions
 
+This table shows all supported maps.
+
 <table class="mission">
-<tr><th>                                  </th><th class=" ">Asset Extraction</th><th class=" ">Break Out</th><th class=" ">Break Through</th><th class=" ">Kill Confirmed</th><th  class=" ">Kill Confirmed Semi.</th><th  class=" ">Security Detail</th></tr>
-<tr><td class="map">747                   </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class="y">              </td><td  class="y">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Arena                 </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class="y">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">City                  </td><td class=" ">                </td><td class="y">         </td><td class="y">             </td><td class="y">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Compound              </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class="y">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="var">— [Compound]          </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class="y">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Creek                 </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class="y">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Depot                 </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="var">— [Compound]          </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Docks                 </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Power Station         </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Rig                   </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="var">— [Decks 1&amp;2]     </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="var">— [Decks 3&amp;4]     </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Run Down              </td><td class=" ">                </td><td class="y">         </td><td class=" ">             </td><td class="y">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Small Town            </td><td class="y">                </td><td class=" ">         </td><td class=" ">             </td><td class="y">              </td><td  class="y">                    </td><td  class="y">              </td></tr>
-<tr><td class="map">Storage Facility      </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">               </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="var">— [Underground]       </td><td class=" ">                </td><td class=" ">         </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Tanker                </td><td class=" ">                </td><td class="y">         </td><td class=" ">             </td><td class="y">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><th>                                  </th><th class=" ">Asset Extraction</th><th class=" ">Break Out   </th><th class=" ">Break Through</th><th class=" ">Kill Confirmed</th><th  class=" ">Kill Confirmed Semi.</th><th  class=" ">Security Detail</th></tr>
+<tr><td class="map">747                   </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class="y">        <sup>2</sup></td><td  class=" ">               </td></tr>
+<tr><td class="map">Arena                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">City                  </td><td class=" ">                </td><td class="y"><sup>1</sup></td><td class="y"> <sup>1</sup></td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Compound              </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="var">— [Compound]          </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Creek                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Depot                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="var">— [Compound]          </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Docks                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Power Station         </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Rig                   </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="var">— [Decks 1&amp;2]     </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="var">— [Decks 3&amp;4]     </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Run Down              </td><td class=" ">                </td><td class="y"><sup>1</sup></td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Small Town            </td><td class="y">    <sup>2</sup></td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class="y">        <sup>2</sup></td><td  class="y">   <sup>2</sup></td></tr>
+<tr><td class="map">Storage Facility      </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="var">— [Underground]       </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Tanker                </td><td class=" ">                </td><td class="y"><sup>1</sup></td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 </table>
+
+<p style="font-size: 0.6875em;">
+Mission credits: <sup>1 </sup><a href="https://github.com/JakBaranowski">Jakub ‘eelSkillz’ Baranowski</a>, 
+<sup>2 </sup><a href="https://github.com/Bob-AT">Bob/AT</a>.
+</p>
+
+*Help wanted!*
+
+In order to support more maps we need help with mission editing: Mission are created via the in-game mission editor (No Unreal or programming skills necessary). See the [mission editing guide](./mission-editing) for an introduction and join us on the [Discord](https://discord.com/invite/MaeMSrYDJa).
 
 # Installation
 
 [Download](https://www.nexusmods.com/groundbranch/mods/31) the ZIP file and extract it contents directly into the Ground Branch installation folder.
 Detail steps, including screenshots, can be found on the [NexusMods page](https://www.nexusmods.com/groundbranch/mods/31).
-
-# Notes
-
-_Break Out_, _Break Through_, and _Kill Confirmed_ were made by [Jakub 'eelSkillz' Baranowski](https://github.com/JakBaranowski).\
-_Asset Extraction_, _Kill Confirmed (Semi-Permissive)_, and _Security Detail_ were made by [Bob/AT](https://github.com/Bob-AT).

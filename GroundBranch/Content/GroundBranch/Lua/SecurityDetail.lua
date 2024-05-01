@@ -5,100 +5,7 @@
 	Parts of the code are based on 'BreakOut' by Jakub 'eelSkillz' Baranowski.
 	We are not using OOP-style inheritance from BreakOut since the game modes are to distinct.
 
-	Notes for Mission Editing:
-
-	1. Before you start.
-
-		For 'Security Detail' it can make sense to start form a 'Kill Confirmed' mission.
-
-		For the following we'll assume that we are editing 'Small Town' with the following
-		well-known (from 'Intel Retrieval') InsertionPoint and ExtractionPoints:
-
-		- InsertionPoint: North-East, South-East, South-West
-		- ExtractionPoint: NE,SE,SW (near respective Spawn point); NWGate (Extraction behind Building A)
-
-		Let's assume that we want to add the following VIP InsertionPoints:
-			- VIP-North-East, VIP-South-East, VIP-South-West
-			- VIP-In-Building-B, VIP-In-Building-D
-			- VIP-In-Building-A (this one is just used in this text and not in the actual mission)
-
-	2. Understanding escape routes
-
-		Some game modes pick a random ExtractionPoint indiscriminately.
-		This would not work very well for 'Security Detail':
-		For example for VIP-In-Building-A the ExtractionPoint NWGate (Extraction behind Building A) would be
-		too easy to reach (it's very close, and you can use building A as partial cover).
-
-		Therefore, we use a different strategy: You, as a mission maker, define which escape routes
-		are allowed. This is done by linking the VIP InsertionPoints to ExtractionPoints via tags.
-
-	2. Tagging ExtractionPoints
-
-		Each ExtractionPoint MUST have at least one tag in the form of 'Exfil-TXT' (where TXT is some text)
-		Multiple tags are allowed.
-		For example, we could tag:
-			- NE with 'Exfil-NE' and 'Exfil-East'
-			- SE with 'Exfil-SE' and 'Exfil-East'
-			- SW with 'Exfil-SW' and 'Exfil-West'
-			- NWGate with 'Exfil-NW' and 'Exfil-West'
-
-	3. Tagging PSD (personal security detail) InsertionPoints
-
-		Each non-VIP InsertionPoint MUST have at EXACTLY one tag in the form of 'IP-TXT' (where TXT is some text).
-		For example, we could tag InsertionPoint South-West with 'IP-SW'.
-
-	4. Adding VIP InsertionPoints for 'Travel' scenario
-
-		In the escort scenario we escort the VIP from one edge of the map to another.
-		In this example we will create VIP-South-West:
-
-		4.1 Create an InsertionPoint
-				The name of the InsertionPoint is functionally irrelevant, however we suggest that you
-				use something like 'VIP:South-West'.
-		4.2 Add tag 'VIP-Travel' and set the team id to 1.
-		4.3 Add PlayerStarts to the InsertionPoint via Editor button.
-				Note that there must be EXACTLY one PlayerStart per VIP InsertionPoint.
-				Therefore, delete 7 of the 8 PlayerStarts.
-		4.4 Link the VIP to his extractions
-				Add one or more Exfil tags to the VIP InsertionPoint
-		4.5 Link the VIP to his PSD.
-				Add the tag 'IP-SW' to the VIP InsertionPoint.
-				Note: When the 'Available Forces' OPS board setting is set to 'PSD only', only InsertionPoints linked
-				to the VIP InsertionPoint (via tag) will be enabled.
-
-	5. Adding VIP InsertionPoints for 'Exfil' scenario
-
-		In the exfil scenario we escort the VIP from the inside of the map to an edge of the map.
-
-		5.1 Create an InsertionPoint (same as 4.1)
-		5.2 Add tag 'VIP-Exfil' and set the team id to 1.
-		5.3 Add PlayerStarts via Editor button. (same as 4.3)
-		5.4 Link the VIP to his extractions (same as 4.4)
-		5.5 Create PSD InsertionPoint
-				Add an InsertionPoint with team id 1. Use a name like 'Building-B'
-				Add the tag 'Hidden' and a tag like 'IP-B' to the InsertionPoint
-		5.6 Link the VIP to his PSD.
-				Add the tag 'IP-B' to the VIP InsertionPoint.
-				When the 'Available Forces' OPS board setting is set to 'PSD only', only InsertionPoints linked
-				to the VIP InsertionPoint (via tag) will be enabled.
-		5.6 Create PSD PlayerStarts
-				Create 7 (or 8) PlayerStarts
-				Move the VIP PlayerStart so that the VIP is covered by his PSD.
-
-	6. Creating 'Restricted' InsertionPoints
-
-		By default, the script will put late comers (players that have not selected an InsertionPoint)
-		to the VIP's PSD.
-		For some PSD InsertionPoints you might not have enough space to place 7 PlayerStarts.
-		In such cases tag the InsertionPoint with 'Restricted' so that script will not use this
-		InsertionPoint for late comers.
-
-	7. Testing
-
-		- If you run 'Validate' in the mission editor the script will print all escape routes into
-		the GB Log file.
-		- Individual InsertionPoints can be activated on the OPS board via console command
-			DebugGameCommand reloadmissionscript loc=2
+	See docs/mission-editing.md.
 --]]
 
 --[[
@@ -1127,5 +1034,13 @@ function Mode:UpdateCompletedObjectives()
 end
 
 --#endregion
+
+function Mode:OnRandomiseObjectives()
+	self:RandomizeObjectives()
+end
+
+function Mode:CanRandomiseObjectives()
+	return true
+end
 
 return Mode
