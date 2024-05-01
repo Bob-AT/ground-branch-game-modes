@@ -5,9 +5,7 @@ description: "Game modes: Asset Extraction, Break Out, Break Through, Kill Confi
 
 The _GB Game Mode Collection_ provides various [open-source](/license) game modes for the game "[GROUND BRANCH](https://www.groundbranch.com/)".
 
-<p style="color:red; text-align: center;">
-NOTE: Porting to GROUND BRANCH v1034 is in progress.
-</p>
+<p style="color:red; text-align: center;">NOTE: Update for GROUND BRANCH v1034 is out!</p>
 
 The following <abbr title="Player versus environment">PvE</abbr> game modes are provided:
 
