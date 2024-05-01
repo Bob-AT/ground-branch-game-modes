@@ -185,7 +185,7 @@ function Exfiltrate:CheckExfilTimer()
 			self.ExfilDone = true
 		end
 		self.OnObjectiveCompleteFunc(self.OnObjectiveCompleteFuncOwner)
-		timer.Clear(self, self.ExfilTimer.Name)
+		timer.Clear(self.ExfilTimer.Name)
 		self.ExfilTimer.CurrentTime = self.ExfilTimer.DefaultTime
 		return
 	end

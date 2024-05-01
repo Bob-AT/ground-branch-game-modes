@@ -70,7 +70,7 @@ end
 function Test:TestTimer2()
 	print('TestTimer2')
 	print('Clearing message')
-	timer.Clear(self, 'TestMessage1')
+	timer.Clear('TestMessage1')
 end
 
 --#endregion

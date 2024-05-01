@@ -426,7 +426,7 @@ end
 
 function BreakThrough:CheckSpawnedAiTimer()
 	local aiControllers = ai.GetControllers(
-		'GroundBranch.GBAIController',
+		nil,
 		self.AiTeams.OpFor.Tag,
 		255,
 		255
@@ -483,7 +483,7 @@ function BreakThrough:CheckBluForCountTimer()
 		return
 	end
 	if self.PlayerTeams.BluFor.Script:IsWipedOut() then
-		timer.Clear(self, 'CheckBluForExfil')
+		timer.Clear('CheckBluForExfil')
 		gamemode.AddGameStat('Result=None')
 		gamemode.AddGameStat('Summary=BluForEliminated')
 		gamemode.SetRoundStage('PostRoundWait')
