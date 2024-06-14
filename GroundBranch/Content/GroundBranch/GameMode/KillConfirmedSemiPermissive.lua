@@ -47,7 +47,7 @@ local NoSoftFail = require('Objectives.NoSoftFail')
 -- Create a deep copy of the singleton
 local super = Tables.DeepCopy(require('KillConfirmed'))
 
-super.GameModeAuthor = "(c) Bob/AT | https://gbgmc.github.io/license\n[Solo/Co-Op] Locate, neutralize and confirm elimination of all HVTs in the AO. Avoid collateral damage."
+super.GameModeAuthor = "(c) Bob/AT | https://gbgmc.github.io/license"
 super.Settings.RespawnCost.Value = 100000
 
 -- Add new score types

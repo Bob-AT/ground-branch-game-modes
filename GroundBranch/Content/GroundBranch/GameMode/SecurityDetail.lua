@@ -49,7 +49,7 @@ local Mode = {
 	UseReadyRoom = true,
 	UseRounds = true,
 	StringTables = {'SecurityDetail'},
-	GameModeAuthor = "'(c) Bob/A <https://gbgmc.github.io/>\n[Solo/Co-Op] Protect the principal.",
+	GameModeAuthor = "'(c) Bob/A <https://gbgmc.github.io/>",
 	GameModeType = "PVE",
 	Config = {
 		-- placeholder
