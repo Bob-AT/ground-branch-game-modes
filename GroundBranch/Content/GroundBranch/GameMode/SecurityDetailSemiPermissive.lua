@@ -1,8 +1,25 @@
-if not _ENV.gbmc_path_fixed then
-	package.path = package.path .. ';../../../GroundBranch/Content/GroundBranch/Lua/?.lua;../../../GroundBranch/Content/GroundBranch/GameMode/?.lua;'
-	_ENV.gbmc_path_fixed = true
-end
+--[[
+	Security Detail (Semi-Permissive)
+
+	See SecurityDetail.lua
+]]--
+
+local AdminConfiguration = {
+	-- If you want to disable soft fail, change the next line to:
+	--   SoftFailEnabled = false
+	SoftFailEnabled = true,
+	-- The max. amount of collateral damage before failing the mission
+	CollateralDamageThreshold = 3
+}
 
 
-package.loaded['SecurityDetailSemiPermissive'] = nil
-return require("SecurityDetailSemiPermissive")
+package.loaded['SecurityDetail'] = nil -- clear cache
+
+local Tables = require('Common.Tables')
+
+local super = Tables.DeepCopy(require('SecurityDetail'))
+for k, v in ipairs(AdminConfiguration) do super.Config[k] = v end
+super.Logger.name = 'SecDetSP'
+super.IsSemiPermissive = true
+
+return super

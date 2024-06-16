@@ -1,7 +1,8 @@
-if not _ENV.gbmc_path_fixed then
-	package.path = package.path .. ';../../../GroundBranch/Content/GroundBranch/Lua/?.lua;../../../GroundBranch/Content/GroundBranch/GameMode/?.lua;'
-	_ENV.gbmc_path_fixed = true
-end
+package.loaded['AssetExtraction'] = nil -- clear cache
+package.loaded['SecurityDetail'] = nil  -- clear cache
 
-package.loaded['AssetExtractionSemiPermissive'] = nil
-return require("AssetExtractionSemiPermissive")
+local Tables = require('Common.Tables')
+local super = Tables.DeepCopy(require('AssetExtraction'))
+super.Logger.name = 'AssetExtractionSP'
+super.IsSemiPermissive = true
+return super
