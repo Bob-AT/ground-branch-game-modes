@@ -1,0 +1,46 @@
+== Ground Branch game modes
+
+=== Description
+
+This repo contains game modes and missions for GROUND BRANCH, as well as other files necessary for them to work.
+
+Please keep in mind the game is in early access, and this repo is a work in progress, and therefore everything is subject to change.
+
+=== Table of contents:
+
+[arabic]
+. link:#installation[Installation]
+. link:#updating[Updating]
+. link:#how-to-play[How to play]
+. link:#contributing[Contributing]
+. link:#kudos[Kudos]
+. link:#license[License]
+
+=== Installation
+
+See https://gbgmc.github.io/#installation.
+
+=== Updating
+
+Follow the same steps as in the installation guide and overwrite all existing files.
+
+=== How to play
+
+See https://gbgmc.github.io/.
+
+=== Contributing
+
+You’re more than welcome to clone, fork and send pull requests for this repository. Below is more info how to work with this repo.
+
+Note: Right now this project uses *gb-tools*, and game modes manifests (the _*.gbm_ files), for packaging game modes into zip archives. More details about the *gb-tools* and manifests can be found on the https://github.com/gbgmc/gb-tools[*gb-tools* github page]. This will be replaced with a shell script that copies to "`Documents/StagedMod`" soon.
+
+=== Kudos
+
+* *BlackFoot* Studios for creating GROUND BRANCH.
+* *tjl* for creating this awesome https://steamcommunity.com/sharedfiles/filedetails/?id=2461956424[Guide].
+* *AV* for creating this https://www.youtube.com/playlist?list=PLle5osICJhZJwHxGOb1iBXoyu_uk9yXMY[Video Tutorial].
+* *r1ft4469* for creating this https://github.com/r1ft4469/GB-Server-Mods[GitHub repo].
+
+=== License
+
+This project uses an link:license.md[MIT license].
