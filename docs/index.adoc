@@ -1,4 +1,4 @@
-:layout: home
+:page-layout: home
 :description: Game modes: Asset Extraction, Break Out, Break Through, Kill Confirmed, Security Detail
 
 The _GB Game Mode Collection_ provides various link:/license[open-source] game modes for the game "`link:https://www.groundbranch.com/[GROUND BRANCH]`".
