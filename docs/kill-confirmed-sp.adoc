@@ -1,0 +1,3 @@
+= Kill Confirmed (Semi-Permissive)
+
+Moved to link:./kill-confirmed[Kill Confirmed].

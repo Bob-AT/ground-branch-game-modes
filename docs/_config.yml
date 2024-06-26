@@ -5,6 +5,12 @@ url: "https://gbgmc.github.io"
 twitter:
   username: "@ItIsOneOfThem"
 
+plugins:
+- jekyll-asciidoc
+
+asciidoctor:
+  attributes:
+    experimental: '@'
 
 defaults:
   - scope:

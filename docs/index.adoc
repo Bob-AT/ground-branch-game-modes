@@ -1,31 +1,32 @@
----
-layout: home
-description: "Game modes: Asset Extraction, Break Out, Break Through, Kill Confirmed, Security Detail"
----
+:layout: home
+:description: Game modes: Asset Extraction, Break Out, Break Through, Kill Confirmed, Security Detail
 
-The _GB Game Mode Collection_ provides various [open-source](/license) game modes for the game "[GROUND BRANCH](https://www.groundbranch.com/)".
+The _GB Game Mode Collection_ provides various link:/license[open-source] game modes for the game "`link:https://www.groundbranch.com/[GROUND BRANCH]`".
 
-<p style="color:red; text-align: center;">NOTE: Update for GROUND BRANCH v1034 is out!</p>
+[.banner]
+--
++NOTE+: Update for GROUND BRANCH v1034 is out!
+--
 
-The following <abbr title="Player versus environment">PvE</abbr> game modes are provided:
+The following PvE/Co-Op game modes are provided:
 
-- [Asset Extraction](./asset-extraction): extract an _Asset_ (undercover agent).
-- [Break Out](./break-out): escape from a _dangerous_ situation.
-- [Break Through](./break-through): traversing through terrain that is controlled by _hostiles_.
-- [Kill Confirmed](./kill-confirmed): locate, neutralize and confirm elimination of all _HVTs_ (High Value Targets) in the AO.
-- [Security Detail](./security-detail): protect the _principal_ (VIP).
+* link:./asset-extraction[Asset Extraction]: extract an _Asset_ (undercover agent).
+* link:./break-out[Break Out]: escape from a _dangerous_ situation.
+* link:./break-through[Break Through]: traversing through terrain that is controlled by _hostiles_.
+* link:./kill-confirmed[Kill Confirmed]: locate, neutralize and confirm elimination of all _HVTs_ (High Value Targets) in the AO.
+* link:./security-detail[Security Detail]: protect the _principal_ (VIP).
 
-# Discord
+== Discord
 
-For questions, suggestion, and bug reports please use our [Discord](https://discord.com/invite/MaeMSrYDJa).
+For questions, suggestion, and bug reports please use our https://discord.com/invite/MaeMSrYDJa[Discord].
 
-If you do not have a Discord account please post your messages in the NexusMods [POSTS tab](https://www.nexusmods.com/groundbranch/mods/31?tab=posts).
-Bug reports can be also filled via the GitHub [issue tracker](https://github.com/gbgmc/ground-branch-game-modes/issues).
+If you do not have a Discord account please post your messages in the NexusMods https://www.nexusmods.com/groundbranch/mods/31?tab=posts[POSTS tab]. Bug reports can be also filled via the GitHub https://github.com/gbgmc/ground-branch-game-modes/issues[issue tracker].
 
-# Missions
+== Missions
 
 This table shows all supported maps.
 
+++++
 <table class="mission">
 <tr><th>                                  </th><th class=" ">Asset Extraction</th><th class=" ">Break Out   </th><th class=" ">Break Through</th><th class=" ">Kill Confirmed</th><th  class=" ">Kill Confirmed Semi.</th><th  class=" ">Security Detail</th></tr>
 <tr><td class="map">747                   </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class="y">        <sup>2</sup></td><td  class=" ">               </td></tr>
@@ -49,15 +50,17 @@ This table shows all supported maps.
 </table>
 
 <p style="font-size: 0.6875em;">
-Mission credits: <sup>1 </sup><a href="https://github.com/JakBaranowski">Jakub ‘eelSkillz’ Baranowski</a>, 
+Mission credits: <sup>1 </sup><a href="https://github.com/JakBaranowski">Jakub ‘eelSkillz’ Baranowski</a>,
 <sup>2 </sup><a href="https://github.com/Bob-AT">Bob/AT</a>.
 </p>
+++++
 
-*Help wanted!*
+_Help wanted!_
 
-In order to support more maps we need help with mission editing: Mission are created via the in-game mission editor (No Unreal or programming skills necessary). See the [mission editing guide](./mission-editing) for an introduction and join us on the [Discord](https://discord.com/invite/MaeMSrYDJa).
+In order to support more maps we need help with mission editing: Mission are created via the in-game mission editor (No Unreal or programming skills necessary).
+See the link:./mission-editing[mission editing guide] for an introduction and join us on the https://discord.com/invite/MaeMSrYDJa[Discord].
 
-# Installation
+== Installation
 
-[Download](https://www.nexusmods.com/groundbranch/mods/31) the ZIP file and extract it contents directly into the Ground Branch installation folder.
-Detail steps, including screenshots, can be found on the [NexusMods page](https://www.nexusmods.com/groundbranch/mods/31).
+https://www.nexusmods.com/groundbranch/mods/31[Download] the ZIP file and extract it contents directly into the Ground Branch installation folder.
+Detail steps, including screenshots, can be found on the https://www.nexusmods.com/groundbranch/mods/31[NexusMods page].

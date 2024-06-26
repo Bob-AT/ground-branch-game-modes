@@ -10,14 +10,18 @@ body, footer {
     padding: 0;
 }
 
+li p { margin: 0.1em; } 
+
 a {
     color: #0969da;
     text-decoration: none;
 }
 
-header mark, header em, ul li::before, main em, header h1 span {
+header mark, header em, ul li::before, main em, header h1 span, div.banner {
     color: #ff2a2a;
 }
+
+div.banner { text-align: center; }
 
 a:hover {
     text-decoration: underline;
@@ -177,6 +181,4 @@ table.mission td.y { color: green; }
 table.mission td.y::before { content: '✔'; }
 table.mission td.map { font-weight: bold; padding-right: 1em; color: black; text-align: left; }
 table.mission td.var { padding-right: 1em; text-align: right; }
-
-
 
