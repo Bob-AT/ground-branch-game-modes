@@ -1,6 +1,6 @@
 MIT License
 
-Copyright © 2022 "Bob/AT" <https://github.com/Bob-AT>\
+Copyright © 2022, 2023, 2024 "Bob/AT" <https://github.com/Bob-AT>\
 Copyright © 2021 Jakub Baranowski <https://github.com/JakBaranowski>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

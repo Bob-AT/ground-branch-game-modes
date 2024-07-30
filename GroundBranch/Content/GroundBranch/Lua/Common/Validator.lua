@@ -35,6 +35,7 @@ if false then
 end
 
 local Tables = require('Common.Tables')
+local ValidationFunctions = require('ValidationFunctions')
 
 local Validator = {
 	separator = '--------------- ',
@@ -127,6 +128,12 @@ function Validator:ValidateLevel()
 		self.gameMode:PostInit()
 	else
 		print('(No PostInit method)')
+	end
+
+	print(sep .. ' Running common validation')
+	local result_table = ValidationFunctions:PerformGenericValidations()
+	for _, item in ipairs(result_table) do
+		table.insert(self.errorList, item)
 	end
 
 	print(sep .. ' Running validation')

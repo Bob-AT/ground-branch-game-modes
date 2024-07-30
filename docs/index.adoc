@@ -16,11 +16,19 @@ The following PvE/Co-Op game modes are provided:
 * link:./kill-confirmed[Kill Confirmed]: locate, neutralize and confirm elimination of all _HVTs_ (High Value Targets) in the AO.
 * link:./security-detail[Security Detail]: protect the _principal_ (VIP).
 
+== Installation
+
+Go to the Steam Workshop item https://steamcommunity.com/sharedfiles/filedetails/?id=3249217564["`GBGMC Game Mode Collection`"] and click "`Subscribe`".
+
+Note: If you have installed older versions of GBGMC via NexusMods, please uninstall them. See https://steamcommunity.com/workshop/filedetails/discussion/3249217564/4514380459604762299/["`How to delete old installations from NexusMods`"] in https://steamcommunity.com/sharedfiles/filedetails/discussions/3249217564["`Discussions`"] for details.
+
 == Discord
 
 For questions, suggestion, and bug reports please use our https://discord.com/invite/MaeMSrYDJa[Discord].
 
-If you do not have a Discord account please post your messages in the NexusMods https://www.nexusmods.com/groundbranch/mods/31?tab=posts[POSTS tab]. Bug reports can be also filled via the GitHub https://github.com/gbgmc/ground-branch-game-modes/issues[issue tracker].
+If you do not have a Discord account please post your messages in the https://steamcommunity.com/sharedfiles/filedetails/discussions/3249217564["`Discussions`"] tab of the Steam workshop.
+
+Bug reports can be also filled via the GitHub https://github.com/gbgmc/ground-branch-game-modes/issues[issue tracker].
 
 == Missions
 
@@ -59,8 +67,3 @@ _Help wanted!_
 
 In order to support more maps we need help with mission editing: Mission are created via the in-game mission editor (No Unreal or programming skills necessary).
 See the link:./mission-editing[mission editing guide] for an introduction and join us on the https://discord.com/invite/MaeMSrYDJa[Discord].
-
-== Installation
-
-https://www.nexusmods.com/groundbranch/mods/31[Download] the ZIP file and extract it contents directly into the Ground Branch installation folder.
-Detail steps, including screenshots, can be found on the https://www.nexusmods.com/groundbranch/mods/31[NexusMods page].
