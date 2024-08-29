@@ -93,6 +93,7 @@ def process_file(filename, variation_list):
 def main():
     prefix_list = ['Narcos/Civ',
                    'Narcos/Tango_AR',
+                   'Narcos/Tango_LMG',
                    'Narcos/Tango_SMG',
                    'Narcos/Tango_SNP',
                    'Narcos/Tango_STG',
@@ -101,6 +102,7 @@ def main():
         process_file('GroundBranch/Content/GroundBranch/AI/Loadouts/' + filename_prefix, VARIATIONS)
 
     prefix_list = ['Narcos/Param_AR',
+                   'Narcos/Param_LMG',
                    'Narcos/Param_SMG',
                    'Narcos/Param_SNP',
                    'Narcos/Param_STG'
