@@ -120,6 +120,55 @@ This variant is generated via the script "`ReplaceLowVizKitsInMis.sed`".
 * Copy "`Security Detail/Asset Extraction (Semi-Permissive, LowViz)`"
 * Replace all non-combatants AI (AI with team ID 10) kits with different “Nacro/*” kits and change the team ID to 100.
 
+
 == Kit notes
 
-In GROUND BRANCH v1034.2, AI can’t use handguns. As a workaround handguns where replaced with "`BP_MP5A5`".
+Here's a list of included kits that can be used:
+
+* EurAsi/HVT_AR_BLACK
+* EurAsi/HVT_CQB_BLACK
+* EurAsi/HVT_SNP_BLACK
+* EurAsi/HVT_STG_BLACK
+* EurAsi/SO_AR
+* EurAsi/SO_CQB
+* EurAsi/SO_HVT_AR
+* EurAsi/SO_HVT_CQB
+* EurAsi/SO_HVT_SNP
+* EurAsi/SO_HVT_STG
+* EurAsi/SO_LMG
+* EurAsi/SO_SNP
+* EurAsi/SO_STG
+
+* MidEas/HVT_AR
+* MidEas/HVT_CQB
+* MidEas/HVT_HDG
+* MidEas/HVT_SNP
+* MidEas/HVT_STG
+* MidEas/SO_AR
+* MidEas/SO_CQB
+* MidEas/SO_LMG
+* MidEas/SO_SNP
+* MidEas/SO_STG
+* MidEas/STD_AR
+* MidEas/STD_CQB
+* MidEas/STD_LMG
+* MidEas/STD_SNP
+* MidEas/STD_STG
+
+* Narcos/Civ1-8
+* Narcos/HVT_AR1-2
+* Narcos/Param_AR1-2
+* Narcos/Param_LMG1-2
+* Narcos/Param_SMG1-2
+* Narcos/Param_SNP1-2
+* Narcos/Param_STG1-2
+* Narcos/Tango_AR1-8
+* Narcos/Tango_HDG1-8
+* Narcos/Tango_LMG1-8
+* Narcos/Tango_SMG1-8
+* Narcos/Tango_SNP1-8
+* Narcos/Tango_STG1-8
+
+=== Handguns
+
+In GROUND BRANCH v1034, AI can not use handguns. As a workaround handguns where replaced with "`BP_MP5A5`".
