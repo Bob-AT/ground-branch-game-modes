@@ -37,29 +37,33 @@ This table shows all supported maps.
 ++++
 <table class="mission">
 <tr><th>                                  </th><th class=" ">Asset Extraction</th><th class=" ">Break Out   </th><th class=" ">Break Through</th><th class=" ">Kill Confirmed</th><th  class=" ">Kill Confirmed Semi.</th><th  class=" ">Security Detail</th></tr>
-<tr><td class="map">747                   </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class="y">        <sup>2</sup></td><td  class=" ">               </td></tr>
-<tr><td class="map">Arena                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">City                  </td><td class=" ">                </td><td class="y"><sup>1</sup></td><td class="y"> <sup>1</sup></td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Compound              </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="var">— [Compound]          </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Creek                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">747                   </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>2</sup></td><td  class="y">        <sup>1</sup></td><td  class=" ">               </td></tr>
+<tr><td class="map">Arena                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>2</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">City                  </td><td class=" ">                </td><td class="y"><sup>2</sup></td><td class="y"> <sup>2</sup></td><td class="y">  <sup>2</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Compound              </td><td class=" ">                </td><td class="y"><sup>3</sup></td><td class=" ">             </td><td class="y">  <sup>2</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="var">— [Compound]          </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>2</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Creek                 </td><td class=" ">                </td><td class="y"><sup>3</sup></td><td class=" ">             </td><td class="y">  <sup>2</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 <tr><td class="map">Depot                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 <tr><td class="var">— [Compound]          </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Docks                 </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Docks                 </td><td class=" ">                </td><td class="y"><sup>3</sup></td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 <tr><td class="map">Power Station         </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 <tr><td class="map">Rig                   </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 <tr><td class="var">— [Decks 1&amp;2]     </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 <tr><td class="var">— [Decks 3&amp;4]     </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Run Down              </td><td class=" ">                </td><td class="y"><sup>1</sup></td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Small Town            </td><td class="y">    <sup>2</sup></td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class="y">        <sup>2</sup></td><td  class="y">   <sup>2</sup></td></tr>
-<tr><td class="map">Storage Facility      </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Run Down              </td><td class=" ">                </td><td class="y"><sup>2</sup></td><td class=" ">             </td><td class="y">  <sup>2</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Small Town            </td><td class="y">    <sup>1</sup></td><td class=" ">            </td><td class=" ">             </td><td class="y">  <sup>2</sup></td><td  class="y">        <sup>1</sup></td><td  class="y">   <sup>1</sup></td></tr>
+<tr><td class="map">Storage Facility      </td><td class=" ">                </td><td class="y"><sup>4</sup></td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 <tr><td class="var">— [Underground]       </td><td class=" ">                </td><td class=" ">            </td><td class=" ">             </td><td class=" ">              </td><td  class=" ">                    </td><td  class=" ">               </td></tr>
-<tr><td class="map">Tanker                </td><td class=" ">                </td><td class="y"><sup>1</sup></td><td class=" ">             </td><td class="y">  <sup>1</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
+<tr><td class="map">Tanker                </td><td class=" ">                </td><td class="y"><sup>2</sup></td><td class=" ">             </td><td class="y">  <sup>2</sup></td><td  class=" ">                    </td><td  class=" ">               </td></tr>
 </table>
 
 <p style="font-size: 0.6875em;">
-Mission credits: <sup>1 </sup><a href="https://github.com/JakBaranowski">Jakub ‘eelSkillz’ Baranowski</a>,
-<sup>2 </sup><a href="https://github.com/Bob-AT">Bob/AT</a>.
+Mission credits: 
+<sup>1 </sup><a href="https://github.com/Bob-AT">Bob/AT</a>,
+<sup>2 </sup><a href="https://github.com/JakBaranowski">Jakub ‘eelSkillz’ Baranowski</a>,
+<sup>3 </sup>Stonehouse,
+<sup>4 </sup>ZER0.
+
 </p>
 ++++
 
